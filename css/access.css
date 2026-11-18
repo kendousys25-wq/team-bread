@@ -1,0 +1,44 @@
+/* ===== アクセスページ専用CSS ===== */
+
+/* ページ全体の外枠 */
+.access-main {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+/* 左右に並べる枠(狭い画面で縦) */
+.access-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+/* 左:店舗情報 */
+.access-info {
+  flex: 1 1 300px;
+}
+
+.access-shop-name {
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
+
+.access-address,
+.access-contact,
+.access-hours,
+.access-route {
+  margin-bottom: 16px;
+  line-height: 1.8;
+}
+
+/* 右:地図 */
+.access-map {
+  flex: 1 1 300px;
+}
+
+.access-map-frame {
+  width: 100%;
+  height: 360px;
+  border: 0;
+}
